@@ -53,5 +53,4 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.6.2
       with:
-        name: "elora-rev1-vial.uf2"
-        path:  "${pwd}/*.uf2"
+        path: .build/splitkb_elora_rev1_vial.uf2
